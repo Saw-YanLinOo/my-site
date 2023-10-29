@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 3</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      .thumbnail {
+        width: 50px;
+        height: 50px;
+        object-fit: fill;
+        object-position: left;
+        border-radius: 50%;
+        vertical-align: middle;
+      }
+      .input-box {
+        border: none;
+        width: 200px;
+        font-size: 18px;
+        margin-left: 4px;
+        padding-left: 8px;
+        height: 40px;
+        border-radius: 100px;
+        /* box-shadow: 0px 1px 5px rgb(0, 0, 0, 0.2); */
+      }
+      .input-box:focus {
+        border-radius: 100px;
+        /* outline: none;
+        box-shadow: 0px 1px 5px rgb(0, 0, 0, 0.2); */
+      }
+      .tweet-button {
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        padding: 8px 12px;
+        background-color: rgb(87, 124, 233);
+      }
+      input {
+        padding: 10px 10px;
+        border-radius: 8px;
+        border: 0.5px solid rgb(221, 216, 216);
+      }
+      .email-text {
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img
+        class="thumbnail"
+        src="https://images.unsplash.com/photo-1533450718592-29d45635f0a9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9"
+      />
+      <input class="input-box" type="text" placeholder="What's happening?" />
+      <button class="tweet-button">Tweet</button>
+    </div>
+
+    <p>
+      <input type="text" class="first-name" placeholder="First name" />
+      <input type="text" class="first-name" placeholder="First name" />
+    </p>
+    <input type="text" class="email-text" placeholder="Email" />
+  </body>
+</html>
