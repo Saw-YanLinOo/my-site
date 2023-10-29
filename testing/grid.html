@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+  </head>
+  <body>
+    <div style="display: grid; grid-template-columns: 100px 100px">
+      <div style="background-color: rgb(99, 241, 243)">div 1</div>
+      <div style="background-color: rgb(217, 121, 230)">
+        div 2
+        <p>Text</p>
+      </div>
+    </div>
+    <div
+      style="
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 100px 100px 300px;
+      "
+    >
+      <div style="background-color: rgb(99, 241, 243)">100px</div>
+      <div style="background-color: rgb(217, 121, 230)">
+        100px
+        <p>Text</p>
+      </div>
+      <div style="background-color: rgb(99, 241, 243)">300px</div>
+    </div>
+    <div
+      style="margin-top: 20px; display: grid; grid-template-columns: 100px 1fr"
+    >
+      <div style="background-color: rgb(99, 241, 243)">100px</div>
+      <div style="background-color: rgb(217, 121, 230)">1fr</div>
+    </div>
+    <div
+      style="
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 100px 1fr 2fr;
+      "
+    >
+      <div style="background-color: rgb(99, 241, 243)">100px</div>
+      <div style="background-color: rgb(217, 121, 230)">1fr</div>
+      <div style="background-color: lightblue">2fr</div>
+    </div>
+    <div
+      style="
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 12px;
+        row-gap: 20px;
+      "
+    >
+      <div style="background-color: rgb(99, 241, 243)">1fr</div>
+      <div style="background-color: rgb(217, 121, 230)">1fr</div>
+      <div style="background-color: lightblue; height: 300px">1fr</div>
+      <div style="background-color: rgb(217, 121, 230)">1fr</div>
+      <div style="background-color: lightblue; height: 300px">1fr</div>
+      <div style="background-color: rgb(99, 241, 243)">1fr</div>
+    </div>
+  </body>
+</html>
